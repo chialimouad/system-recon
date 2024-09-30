@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion-Based Music Recommendation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Music Recommendation Based on Your Mood</h1>
+    </header>
+
+    <section class="chatbot-section">
+        <div class="chatbox">
+            <p>Hi! I can recommend music based on your current emotion. Click below to start.</p>
+            <button id="startButton">Start Webcam</button>
+        </div>
+
+        <div class="webcam-container">
+            <video id="webcam" autoplay></video>
+            <canvas id="canvas" hidden></canvas>
+        </div>
+    </section>
+
+    <section class="recommendation-section" id="recommendationSection" hidden>
+        <h2>Recommended Music</h2>
+        <ul id="musicList">
+            <!-- Music recommendations will be displayed here -->
+        </ul>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/face-api.js"></script> <!-- Include Face-api.js for facial detection -->
+    <script src="script.js"></script> <!-- Your custom JavaScript file -->
+</body>
+</html>

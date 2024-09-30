@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    color: white;
+}
+
+.chatbox {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 300px;
+}
+
+#startButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.webcam-container {
+    margin-top: 30px;
+}
+
+video {
+    width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.recommendation-section {
+    margin-top: 30px;
+}
+
+#musicList {
+    list-style: none;
+    padding: 0;
+}
+
+#musicList li {
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
